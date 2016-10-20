@@ -1,28 +1,49 @@
-== README
+== Mongodb
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Mongodb is
 
-Things you may want to cover:
+* Schemaless database (Dynamic schema)
 
-* Ruby version
+* Document database
 
-* System dependencies
+* Document saved in Binary Json (Bson)
 
-* Configuration
+* Tables are converted into collections.
 
-* Database creation
+* Records are converted into documents? (is it?)
 
-* Database initialization
+* Mongo db Document based database
 
-* How to run the test suite
+* MongoDB documents are similar to JSON objects.
 
-* Services (job queues, cache servers, search engines, etc.)
+* Database is created when we try to insert first value
 
-* Deployment instructions
+* Tables and column sare created dynamically
 
 * ...
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+COMMANDS
+
+* Start Server: mongod
+* Start Shell: mongo
+
+* show dbs
+* use db (You can switch to any non-existence db as well)
+* db (current db)
+* db.users.save({name: 'Zeeshan})
+* db.users.save([{name: 'Hamza'}, {name: 'Ali', location: 'LHR'}])
+
+CRUD
+
+* db.users.save({data})
+* db.users.find({criteria})
+* db.users.update({previous_value}, {updated_value})
+* db.users.remove({criteria})
+
+
+REFERENCES
+
+Online Shell: https://www.tutorialspoint.com/mongodb_terminal_online.php
+
+Tutorial Followed: https://richonrails.com/articles/mongodb-and-rails
