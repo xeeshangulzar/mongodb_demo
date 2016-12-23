@@ -47,3 +47,5 @@ REFERENCES
 Online Shell: https://www.tutorialspoint.com/mongodb_terminal_online.php
 
 Tutorial Followed: https://richonrails.com/articles/mongodb-and-rails
+
+{<img alt='Stories in Ready' src='https://badge.waffle.io/xeeshangulzar/mongodb_demo.png?label=ready&title=Ready' />}[https://waffle.io/xeeshangulzar/mongodb_demo]
